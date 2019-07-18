@@ -5,6 +5,7 @@ def compute (string):
 	operator=values[1]
 	if operator =='+':
 	     return num0 +num1
+	elseif operator =='-':
+	    return num0-num1
         else: 
-	    print ("unknown Operator!')
-	    raise ValueError 'unknownoperator'
+	    raise ValueError ('unknownoperator')
