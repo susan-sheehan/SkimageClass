@@ -9,6 +9,8 @@ def compute (string):
 	     return num0 +num1
 	elseif operator =='-':
 	    return num0-num1
+        elseif operator =='/':
+	    return num0/num1
         else: 
 	   msg=f'Unknonw operator:"{operatpr}"' 
 	   msg +="choose from "+" and "-".'
