@@ -8,4 +8,5 @@ def compute (string):
 	elseif operator =='-':
 	    return num0-num1
         else: 
-	    raise ValueError ('unknownoperator')
+	   msg=f'Unknonw operator:"{operatpr}"' 
+	   raise ValueError ('msg')
